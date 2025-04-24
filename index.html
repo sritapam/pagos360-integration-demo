@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Integración PAGOS360 Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Simulador de Pago - PAGOS360</h1>
+
+  <form id="paymentForm">
+    <input type="text" id="payerName" placeholder="Nombre del pagador" required />
+    <input type="text" id="concept" placeholder="Concepto" required />
+    <input type="number" id="amount" placeholder="Importe" required />
+    <input type="date" id="dueDate" required />
+    <button type="submit">Crear Solicitud de Pago</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="fake-api.js"></script>
+  <script src="webhook-simulator.js"></script>
+  <script src="app.js"></script>
+  
+  </body>
+</html>
