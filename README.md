@@ -52,9 +52,9 @@ Hi, I’m Pame, founder of *Mū Studio*, a brand focused on self-care and wellne
 git clone https://github.com//pagos360-integration-demo.git
 cd pagos360-integration-demo
 open index.html # o simplemente abrirlo en tu navegador
+```
 
 ✅ No requiere backend real ni librerías externas.
-```
 
 🤝 Créditos
 Proyecto realizado por @sritapam
