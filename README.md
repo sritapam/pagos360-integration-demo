@@ -54,9 +54,10 @@ cd pagos360-integration-demo
 open index.html # o simplemente abrirlo en tu navegador
 
 ✅ No requiere backend real ni librerías externas.
+```
 
 🤝 Créditos
-Proyecto realizado por 
+Proyecto realizado por @sritapam
 Inspirado por la documentación oficial de Pagos360
 
 📬 ¿Feedback?
